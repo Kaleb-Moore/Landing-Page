@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blk-container {
+    padding: 0px 75px;
+    background-color: #1f2937;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px 64px 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: 280px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width: 970px) {
+    .logo {
+        margin-right: 250px;
+    }
+}
