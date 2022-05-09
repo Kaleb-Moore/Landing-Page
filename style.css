@@ -33,6 +33,44 @@ a {
     gap: 16px;
 }
 
+.wht-container {
+    padding: 0px 75px;
+    background-color: #fff;
+    margin-bottom: 64px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding-bottom: 64px;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 32px;
+    width: 350px;
+}
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0px;
+}
+
+.hero-btn {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
 @media (max-width: 970px) {
     .logo {
         margin-right: 250px;
