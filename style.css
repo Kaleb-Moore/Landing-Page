@@ -126,6 +126,41 @@ a {
     font-weight: 800;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 128px;
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 700px;
+    padding: 32px;
+}
+
+.big-text {
+    font-style: bold;
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+}
+
+.tiny-text {
+    color: white;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 2px;
+    padding: 8px 32px;
+}
+
 @media (max-width: 970px) {
     .logo {
         margin-right: 250px;
